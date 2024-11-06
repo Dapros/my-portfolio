@@ -1,11 +1,11 @@
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 
 
 export default function Header() {
 
   return (
     <header className="bg-[#202023] w-full">
-      <nav className="w-3/4 mx-auto flex justify-between items-center py-5">
+      <nav className="flex items-center justify-between w-3/4 py-5 mx-auto">
         <div className="flex items-center">
           <img src="../../public/White.png" className="w-9"/>
           <p className="text-white font-bold lg:text-[25px] md:text-[16px]">Sergio Romero | Dapros</p>
@@ -32,7 +32,7 @@ export default function Header() {
           </div>
           <div>
             <button type="button"
-              className="stroke-current w-6 text-white cursor-pointer md:hidden"
+              className="w-6 text-white cursor-pointer stroke-current md:hidden"
             >
               <Menu name="menu" />
             </button>
