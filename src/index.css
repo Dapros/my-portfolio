@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-poppins: "Poppins", serif;
+}
+
+.dark {
+  --primary: 255, 255, 255;
+  --secondary: 63, 226, 221;
+  --tertiary: 146, 116, 255;
+
+  --background-page: 32, 32, 35; 
+  --background-page-2: 49, 49, 52;
+
+  --bg-primary: var(--primary);
+  --bg-secondary: var(--secondary);
+  --bg-tertiary: var(--tertiary);
+
+  --border-primary: var(--secondary);
+}
+
+.text-primary {
+  color: rgb(var(--primary));
+}
+
+.text-secondary {
+  color: rgb(var(--secondary));
+}
+
+.text-tertiary {
+  color: rgb(var(--tertiary));
+}
+
+.bg-page-theme {
+  background: rgb(var(--background-page));
+}
+
+.bg-page-theme-2 {
+  background: rgba(var(--background-page-2), 1);
+}
+
+.bg-primary {
+  background: rgb(var(--bg-primary));
+}
+
+.bg-secondary {
+  background: rgb(var(--bg-secondary));
+}
+
+.bg-tertiary {
+  background: rgb(var(--bg-tertiary));
+}
+
+.border-primary-o {
+  border-color: rgba(var(--border-primary), 0.5);
+}
+
+.border-primary {
+  border-color: rgb(var(--border-primary));
+}
+
+
+
+
+.anim {
+  animation: moves 5s infinite;
+}
+
+@keyframes moves {
+  0% {
+    transform: translateY(-1%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1%);
+  }
+}
+
