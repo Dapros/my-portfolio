@@ -32,11 +32,11 @@
   color: rgb(var(--tertiary));
 }
 
-.bg-page-theme {
+.bg-theme {
   background: rgb(var(--background-page));
 }
 
-.bg-page-theme-2 {
+.bg-2 {
   background: rgba(var(--background-page-2), 1);
 }
 

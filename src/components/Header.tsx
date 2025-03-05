@@ -33,34 +33,34 @@ export default function Header() {
   return (
     <div className={`sticky top-1 mb-2 z-10 ${!shadow && 'shadow'}`}>
       <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-gray-200/30'}`}>
-        <div className="flex items-center">
+        <a className="flex items-center" href='#landing'>
           <img
             src="/public/DaprosLogosvg.svg" 
             alt="" 
             className="h-10"
           />
           <h1 className="font-medium text-md md:text-xl lg:text-xl pl-1 ">Sergio Romero - Dapros</h1>
-        </div>
+        </a>
 
         <nav className="hidden lg:flex space-x-5 text-lg">
-          <a href="#">About</a>
-          <a href="#">Work</a>
-          <a href="#">Contact</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
         </nav>
 
         <div className='relative lg:hidden' ref={menuRef}>
           <Hamburger size={25} toggled={isOpen} toggle={setOpen} />
           {isOpen && (
-            <div className='absolute -right-1 w-60 md:w-92 rounded-lg top-18 bg-page-theme border border-primary'>
+            <div className='absolute -right-1 w-60 md:w-92 rounded-lg top-18 bg-theme border border-primary'>
               <ul className='space-y-2 md:space-y-4 px-4 py-5'>
                 <li className='w-full md:text-center md:text-xl'>
-                  <a href="#">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li className='w-full md:text-center md:text-xl'>
-                  <a href="#">Work</a>
+                  <a href="#work">Work</a>
                 </li>
                 <li className='w-full md:text-center md:text-xl'>
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
