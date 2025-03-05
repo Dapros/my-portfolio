@@ -9,7 +9,7 @@ export default function About() {
     <>
       <article className="my-10 lg:my-30">
         
-        <section className="px-4">
+        <section className="px-4 scroll-mt-24" id="about">
           <h3 className="uppercase font-bold text-sm lg:text-lg">Introduction</h3>
           <h1 className="font-extrabold text-3xl md:text-4xl lg:text-6xl text-secondary">Overview.</h1>
           <hr className="h-1 my-2 bg-primary border-none w-28 rounded-xl" />

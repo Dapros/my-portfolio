@@ -9,16 +9,16 @@ type CardProyectsProp = {
 
 export default function CardProyects({card} : CardProyectsProp) {
   return (
-    <div className="bg-page-theme-2 rounded-2xl p-5">
+    <div className="bg-2 rounded-2xl p-5">
       <div className="relative">
         <img 
           src={card.img} alt="Imagen" className="rounded-xl" 
         />
         <div className="flex items-center absolute top-4 right-4 space-x-4">
-          <a href={card.linkDemo} target="_blank" className="bg-page-theme-2 rounded-full p-2 shadow-md">
+          <a href={card.linkDemo} target="_blank" className="bg-2 rounded-full p-2 shadow-md">
             <ExternalLink size={20} />
           </a>
-          <a href={card.linkGit} target="_blank" className="bg-page-theme-2 rounded-full p-2 shadow-md">
+          <a href={card.linkGit} target="_blank" className="bg-2 rounded-full p-2 shadow-md">
             <FaGithub size={20} />
           </a>
         </div>
@@ -31,7 +31,7 @@ export default function CardProyects({card} : CardProyectsProp) {
         </div>
 
         <div>
-          <p className="flex items-center text-sm space-x-1 bg-page-theme w-fit my-5 px-4 py-1 font-bold text-tertiary rounded-full shadow">
+          <p className="flex items-center text-sm space-x-1 bg-theme w-fit my-5 px-4 py-1 font-bold text-tertiary rounded-full shadow">
             <Globe size={15}/>
             <span>{card.lan}</span>
           </p>

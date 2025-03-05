@@ -1,10 +1,10 @@
 
 export default function Contact() {
   return (
-    <section className="mb-10 px-4">
+    <section className="mb-10 px-4 scroll-mt-24" id="contact">
       <div className="flex flex-col items-center justify-around lg:flex-row">
         <form
-          className="flex flex-col gap-8 w-full lg:w-2/5 backdrop:blur-2xl p-8 rounded-xl bg-page-theme-2"
+          className="flex flex-col gap-8 w-full lg:w-2/5 backdrop:blur-2xl p-8 rounded-xl bg-2"
         >
           <div>
             <h3 className="uppercase font-bold text-sm lg:text-lg">Let's talk</h3>
@@ -19,7 +19,7 @@ export default function Contact() {
               id="yname"
               name="name"
               placeholder="How can I tell you?"
-              className="p-2 border rounded-lg outline-none"
+              className="p-2 bg-theme rounded-lg outline-none"
             />
           </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
               id="yemail"
               name="email"
               placeholder="What's your email"
-              className="p-2 bg-transparent border rounded-lg outline-none"
+              className="p-2 bg-transparent bg-theme rounded-lg outline-none"
             />
           </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
               name="message" 
               id="ymessage"
               placeholder="Write your message here..."
-              className="p-2 bg-transparent border rounded-lg outline-none min-h-32 max-h-72"
+              className="p-2 bg-transparent bg-theme rounded-lg outline-none min-h-32 max-h-72"
             ></textarea>
           </div>
 
