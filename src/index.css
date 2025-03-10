@@ -60,7 +60,11 @@
   border-color: rgb(var(--border-primary));
 }
 
-
+.toasty-custom {
+  background: rgba(var(--background-page-2), 1);
+  color: white;
+  box-shadow: 0px 0px 21px -7px rgba(0,0,0,.75);
+}
 
 
 .anim {

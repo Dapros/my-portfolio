@@ -9,3 +9,9 @@ export type Card = {
   lan: string
   techs: string
 }
+
+export type userInputs = {
+  name: string
+  email: string
+  message: string
+}

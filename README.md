@@ -13,3 +13,9 @@ Dependencias:
 * npm install lucide-react
 
 * npm install react-icons
+
+* npm install @emailjs/browser
+
+* npm i react-toastify
+
+* npm i react-hook-form
