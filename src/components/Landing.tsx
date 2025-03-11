@@ -37,8 +37,7 @@ export default function Landing() {
           <div className='relative transform lg:translate-x-[50%]'>
             <img 
               className='md:w-2/3 mx-auto lg:w-full anim'
-              src="/public/HeroMaterialRoom.svg" 
-              alt=""
+              src="/HeroMaterialRoom.svg" 
             />
             <p className='absolute top-[25%] left-[20%] md:top-[30%] lg:top-[35%] md:left-[40%] py-2 px-3 md:px-5 rounded-full bg-2 text-xs md:text-md shadow'>Hey! thanks for visit my portfolio web site</p>
           </div>

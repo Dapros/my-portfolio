@@ -35,8 +35,7 @@ export default function Header() {
       <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-gray-200/30'}`}>
         <a className="flex items-center" href='#landing'>
           <img
-            src="/public/DaprosLogosvg.svg" 
-            alt="" 
+            src="/DaprosLogosvg.svg"
             className="h-10"
           />
           <h1 className="font-medium text-md md:text-xl lg:text-xl pl-1 ">Sergio Romero - Dapros</h1>
