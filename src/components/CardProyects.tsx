@@ -9,9 +9,9 @@ type CardProyectsProp = {
 
 export default function CardProyects({card} : CardProyectsProp) {
   return (
-    <div className="bg-2 rounded-2xl p-5">
+    <div className="bg-2 rounded-2xl p-5 h-[700px]">
       <div className="relative">
-        <img 
+        <img
           src={card.img} alt="Imagen" className="rounded-xl" 
         />
         <div className="flex items-center absolute top-4 right-4 space-x-4">
@@ -24,10 +24,10 @@ export default function CardProyects({card} : CardProyectsProp) {
         </div>
       </div>
 
-      <div className="py-5 flex flex-col justify-end">
+      <div className="pt-4 flex flex-col justify-between h-[400px]">
         <div>
           <h2 className="text-xl font-extrabold">{card.title}</h2>
-          <p className="py-2">{card.description}</p>
+          <p className="pt-2">{card.description}</p>
         </div>
 
         <div>
