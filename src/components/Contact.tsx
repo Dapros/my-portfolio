@@ -124,7 +124,7 @@ export default function Contact() {
 
         <div>
           <img 
-            src="/public/Character3dElement.png"
+            src="/Character3dElement.png"
             className="hidden w-3/4 mx-auto lg:block"
           />
         </div>
