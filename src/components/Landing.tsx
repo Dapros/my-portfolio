@@ -25,7 +25,8 @@ export default function Landing() {
               <FaLinkedinIn size={30} strokeWidth={1} className="p-1" />
             </a>
             <a 
-              href="" 
+              href="/Sergio Romero  Dapros - CV english.pdf"
+              download
               className='flex items-center space-x-2 border-2 border-primary rounded-full py-1 px-3'>
               <FaDownload size={30} strokeWidth={1} className="p-1"  />
               <p className='font-bold'>Download CV</p>
