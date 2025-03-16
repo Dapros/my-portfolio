@@ -40,7 +40,7 @@ export default function Landing() {
               className='md:w-2/3 mx-auto lg:w-full anim'
               src="/HeroMaterialRoom.svg" 
             />
-            <p className='absolute top-[25%] left-[20%] md:top-[30%] lg:top-[35%] md:left-[40%] py-2 px-3 md:px-5 rounded-full bg-2 text-xs md:text-md shadow'>Hey! thanks for visit my portfolio web site</p>
+            <p className='absolute top-[25%] left-[20%] md:top-[30%] lg:top-[35%] md:left-[40%] py-2 px-3 md:px-5 rounded-full bg-2 text-xs md:text-md shadow'>Hey! thanks for visiting my portfolio web site</p>
           </div>
         </div>
       </article>
