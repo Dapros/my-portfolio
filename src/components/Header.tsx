@@ -51,7 +51,7 @@ export default function Header() {
           <Hamburger size={25} toggled={isOpen} toggle={setOpen} />
           {isOpen && (
             <div className='absolute -right-1 w-60 md:w-92 rounded-lg top-18 bg-theme border border-primary'>
-              <ul className='space-y-2 md:space-y-4 px-4 py-5'>
+              <ul className='space-y-8 md:space-y-5 px-4 py-5'>
                 <li className='w-full md:text-center md:text-xl'>
                   <a href="#about">About</a>
                 </li>
