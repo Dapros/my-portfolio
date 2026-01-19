@@ -1,4 +1,5 @@
 import { Turn as Hamburger} from 'hamburger-react'
+import { IoMdHome } from "react-icons/io";
 import { useEffect, useRef, useState } from "react"
 
 export default function Header() {
@@ -30,27 +31,40 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // Estilos reutilizables para los links de navegación (Desktop)
+  const navLinkStyles = "px-4 py-2 rounded-full text-text-p font-medium transition-all duration-300 hover:bg-primary hover:text-white hover:shadow-[0_0_15px_rgba(255,107,107,0.4)]";
+  const navLinkHome = "p-2 rounded-full text-text-p font-medium transition-all duration-300 hover:bg-accent hover:text-white hover:shadow-[0_0_15px_rgba(255,107,107,0.4)] text-xl"
+
   return (
-    <div className={`sticky top-1 mb-2 z-10 ${!shadow && 'shadow'}`}>
-      <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-gray-200/30'}`}>
-        <a className="flex items-center" href='#landing'>
+    <div className={`sticky top-1 mb-2 z-50 ${!shadow && 'shadow'}`}>
+      <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-primary/30'}`}>
+        <a className="flex items-center" href='#'>
           <img
-            src="/DaprosLogosvg.svg"
+            src="/public/assets/Sergio-Romero-Logo-2026.svg"
             className="h-10"
           />
-          <h1 className="font-medium text-md md:text-xl lg:text-xl pl-1 ">Sergio Romero - Dapros</h1>
+          <h1 className="font-display font-bold text-lg md:text-xl text-text-main tracking-wide uppercase ml-2">
+            Sergio Romero
+          </h1>
         </a>
 
-        <nav className="hidden lg:flex space-x-5 text-lg">
-          <a href="#about">About</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+        {/* NAVEGACIÓN DESKTOP (Aquí están los cambios) */}
+        <nav className="hidden lg:flex items-center space-x-2 text-sm font-body">
+          <a href="#" className={navLinkHome}><IoMdHome /></a>
+          <a href="#about" className={navLinkStyles}>About</a>
+          <a href="#work" className={navLinkStyles}>Work</a>
+          <a href="#contact" className={navLinkStyles}>Contact</a>
         </nav>
 
         <div className='relative lg:hidden' ref={menuRef}>
-          <Hamburger size={25} toggled={isOpen} toggle={setOpen} />
+          <Hamburger 
+            size={25} 
+            toggled={isOpen} 
+            toggle={setOpen}
+            color="var(--color-cyan)"
+          />
           {isOpen && (
-            <div className='absolute -right-1 w-60 md:w-92 rounded-lg top-18 bg-theme border border-primary'>
+            <div className='absolute -right-1 w-60 md:w-92 rounded-lg top-18 backdrop-blur-2xl border border-primary/30 shadow-md shadow-primary/20'>
               <ul className='space-y-8 md:space-y-5 px-4 py-5'>
                 <li className='w-full md:text-center md:text-xl'>
                   <a href="#about">About</a>

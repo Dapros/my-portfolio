@@ -1,8 +1,8 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
 import Header from "./components/Header"
-import Landing from "./components/Landing"
-import Work from "./components/Work"
+import Landing from "./pages/Landing"
+import Work from "./pages/Work"
 
 function App() {
   
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
 
-      <main className="lg:w-2/3 mx-auto font-poppins px-5">
+      <main className="lg:w-2/3 mx-auto px-5">
         <Landing />
         <About />
         <Work />
