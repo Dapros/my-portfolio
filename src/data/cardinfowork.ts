@@ -1,0 +1,37 @@
+export const cardinfowork = [
+  {
+    id: 1,
+    logo: 'https://www.tidelit.co/wp-content/uploads/2025/06/Tidelit-Vec-Ai-Carga-web.png',
+    date: '2025',
+    month: 'July - December',
+    role: 'Front-End Developer',
+    title: 'Tidelit Unity SAS',
+    description: [
+      'Developed core features for the MVP of a music streaming mobile app using React Native, React, and TypeScript.',
+      'Implemented UI designs from Figma across 40+ screens, ensuring consistency and accessibility.',
+      'Integrated REST APIs and validated critical user flows.',
+      'Collaborated with backend and design teams under Agile/Scrum methodology.',
+      'Improved navigation and user experience before public launch.',
+    ],
+    techs: 'React, React Native, TypeScript, HTML, CSS, TailwindCSS, Figma, Git, Scrum',
+    lan: 'Spanish',
+  },
+  {
+    id: 2,
+    logo: 'https://d1cg29ukvkl76a.cloudfront.net/media_files/publicmedia/5ba70ae9e1ac99e744929aed47590ebfbdf1246ddfebe6253eb41ce2a5dc6b68/image.jpg',
+    date: '2025',
+    month: 'January - June',
+    role: 'Full-Stack Developer',
+    title: 'Rad Consultans',
+    description: [
+      'Contributed to the full-stack development of a web and mobile application for automotive repair services.',
+      'Built and maintained frontend interfaces and backend features.',
+      'Developed and deployed serverless backend logic using Firebase Functions (v2).',
+      'Integrated third-party services for messaging and email delivery (Twilio, SendGrid, Resend).',
+      'Fixed bugs and improved overall product stability and functionality.',
+      'Collaborated remotely with cross-functional teams following Agile/Scrum practices.',
+    ],
+    techs: 'Flutter (Dart), JavaScript, Firebase, Firebase Functions V2, Google Cloud, Twilio, SendGrid, Resent, Git, Scrum, Slack',
+    lan: 'English',
+  },
+]

@@ -31,7 +31,7 @@
   --font-display: "Orbitron", sans-serif;
   --font-body: "Space Grotesk", sans-serif;
   --font-code: "JetBrains Mono", monospace;
-  
+
   /* Animación para elementos flotantes */
   --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
@@ -189,5 +189,6 @@ body {
 
 /* CLASE UTILITARIA PARA DEGRADADOS */
 .bg-gradient-brand {
-  background: linear-gradient(135deg, var(--color-blue) 0%, var(--color-cyan) 100%);
+  background: #050A14;
+  background: linear-gradient(180deg,var(--bg-main) 0%, var(--color-text-main) 10%, var(--color-text-main) 70%, var(--bg-main) 100%);
 }

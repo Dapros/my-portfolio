@@ -40,7 +40,7 @@ export default function Header() {
       <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-primary/30'}`}>
         <a className="flex items-center" href='#'>
           <img
-            src="/public/assets/Sergio-Romero-Logo-2026.svg"
+            src="/assets/Sergio-Romero-Logo-2026.svg"
             className="h-10"
           />
           <h1 className="font-display font-bold text-lg md:text-xl text-text-main tracking-wide uppercase ml-2">
