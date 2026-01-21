@@ -1,5 +1,5 @@
 
-export const cardsinfo = [
+export const cardsinfoproject = [
   {
     id: 1,
     img: '/eComBackground.jpg',

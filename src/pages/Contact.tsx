@@ -56,7 +56,7 @@ export default function Contact() {
           <ToastContainer/>
           <div>
             <h3 className="uppercase font-bold font-body text-sm lg:text-lg">Let's talk</h3>
-            <h1 className="font-extrabold font-display text-3xl md:text-4xl lg:text-6xl text-primary pb-1">Contact.</h1>
+            <h1 className="font-extrabold font-display text-3xl md:text-4xl lg:text-6xl text-primary pb-1">Contact me.</h1>
             <hr className="h-1 my-2 bg-accent border-none w-28 rounded-xl" />
           </div>
 
