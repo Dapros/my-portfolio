@@ -192,3 +192,21 @@ body {
   background: #050A14;
   background: linear-gradient(180deg,var(--bg-main) 0%, var(--color-text-main) 10%, var(--color-text-main) 70%, var(--bg-main) 100%);
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-cyan);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-main);
+}
+
+::selection {
+  background-color: var(--color-cyan);
+  color: var(--bg-main);
+}
