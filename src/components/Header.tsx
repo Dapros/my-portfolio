@@ -37,7 +37,7 @@ export default function Header() {
 
   return (
     <div className={`sticky top-1 mb-2 z-50 ${!shadow && 'shadow'}`}>
-      <header className={`flex justify-between px-5 py-4 items-center lg:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-primary/30'}`}>
+      <header className={`flex justify-between px-5 py-4 items-center w-full xl:w-2/3 mx-auto rounded-full backdrop-blur-2xl ${shadow && 'shadow-md border-1 border-primary/30'}`}>
         <a className="flex items-center" href='#'>
           <img
             src="/assets/Sergio-Romero-Logo-2026.svg"
