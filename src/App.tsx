@@ -10,12 +10,13 @@ function App() {
   return (
     <div>
       <Header />
-
-      <main className="lg:w-2/3 mx-auto px-5">
+      <main>
         <Landing />
-        <About />
-        <Work />
-        <Contact />
+        <div className="w-full xl:w-2/3 mx-auto px-5">
+          <About />
+          <Work />
+          <Contact />
+        </div>
       </main>
     </div>
   )

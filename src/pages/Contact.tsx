@@ -125,7 +125,7 @@ export default function Contact() {
         <div className='w-full relative -z-10 overflow-hidden'>
           <div className="nebula-bg-small" />
           <img 
-            src="/assets/Sergio-Contact.png"
+            src="/assets/Sergio-Contact.avif"
             className="mx-auto mt-10 max-w-11/12"
           />
         </div>
