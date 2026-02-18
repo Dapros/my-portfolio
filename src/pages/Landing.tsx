@@ -83,7 +83,7 @@ export default function Landing() {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/sergio-david-romero-pulido-098931203/"
+              href="https://www.linkedin.com/in/sergio-rom/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent hover:shadow-accent/50 hover:shadow-md transition-colors duration-300 p-2 border border-accent/50 rounded-full hover:border-accent"
@@ -91,7 +91,7 @@ export default function Landing() {
               <FaLinkedinIn size={24} />
             </a>
             <a
-              href="/pdfs/Sergio_Romero_Frontend_Developer_EN.pdf"
+              href="/pdfs/CV-EN_Sergio_Romero_Frontend_Developer.pdf"
               download
               className="flex items-center space-x-2 bg-accent text-background hover:shadow-accent/50 hover:shadow-md border border-accent/50 hover:border-accent transition-all duration-300 rounded-full py-2 px-5 font-bold"
             >
