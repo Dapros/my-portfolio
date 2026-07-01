@@ -2,8 +2,12 @@ import { FaDownload } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Typewriter from "../components/Typewriter";
+import { info } from "../data/info";
+import { useState } from "react";
 
 export default function Landing() {
+
+  const [ data ] = useState(info)
 
   // Lista de titulos para el efecto de typing
   const titles = [
@@ -68,7 +72,7 @@ export default function Landing() {
               </div>
             </div>
             <p className="text-sm text-text-p font-body leading-relaxed">
-              Systems Engineer & Frontend Developer. I merge creative design with technical logic to build efficient, high-quality web and mobile interfaces on time.
+              {data[0].description}
             </p>
           </div>
 
