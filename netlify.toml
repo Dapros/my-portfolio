@@ -1,0 +1,6 @@
+[build]
+  command = "bun run build"
+  publish = "dist" # directorio por defecto que genera Vite
+
+[build.environment]
+  BUN_VERSION = "latest"
