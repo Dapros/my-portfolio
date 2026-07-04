@@ -6,7 +6,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 import { 
-  SiNextdotjs, SiExpo, SiAstro, SiExpress, SiThreedotjs 
+  SiNextdotjs, SiExpo, SiAstro, SiExpress, SiThreedotjs, SiFlutter
 } from "react-icons/si";
 
 import { info } from "../data/info";
@@ -20,6 +20,7 @@ export default function About() {
     // Frontend & Lenguajes
     { name: "React", icon: FaReact, color: "group-hover:text-[#61DAFB]" },
     { name: "React Native", icon: FaReact, color: "group-hover:text-[#61DAFB]" },
+    { name: "Flutter (Dart)", icon: SiFlutter, color: "group-hover:text-[#54C5F8]" },
     { name: "Next.js", icon: SiNextdotjs, color: "group-hover:text-black dark:group-hover:text-white" },
     { name: "TypeScript", icon: BiLogoTypescript, color: "group-hover:text-[#3178C6]" },
     { name: "JavaScript", icon: RiJavascriptFill, color: "group-hover:text-[#F7DF1E]" },
