@@ -62,7 +62,7 @@ export default function About() {
           <h1 className="font-extrabold text-xl md:text-3xl font-body mb-8 text-primary">
             {data[2].title}
           </h1>
-
+            
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 md:gap-8">
             {skillsData.map((skill, index) => {
               const Icon = skill.icon;
@@ -74,7 +74,7 @@ export default function About() {
                   <div className={`text-gray-400/80 transition-colors duration-300 ${skill.color}`}>
                     <Icon size={45} className="drop-shadow-sm group-hover:drop-shadow-md" />
                   </div>
-                  <p className="font-bold text-xs md:text-sm text-gray-500 group-hover:text-primary transition-colors duration-300 text-center">
+                  <p className={`font-bold text-xs md:text-sm text-gray-500 transition-colors duration-300 text-center ${skill.color}`}>
                     {skill.name}
                   </p>
                 </div>
