@@ -21,12 +21,12 @@ export const cardsinfoproject = [
   },
   {
     id: 3,
-    img: '/cryptoImg.avif',
-    title: 'Real-Time Crypto Dashboard',
-    description: 'A financial tracking application leveraging external APIs to deliver instant cryptocurrency valuations. Engineered with Zustand for highly optimized global state management, the app processes live data streams to display complex financial metrics like daily fluctuations, price peaks, and market trends without performance degradation.',
-    linkGit: 'https://github.com/Dapros/cotizador-criptomoneda-zustand',
-    linkDemo: 'https://cotizador-criptomoneda-zustand-dapros.netlify.app/',
+    img: '/MovieAndCornBgImg.avif',
+    title: 'Movie And Corn',
+    description: 'Movie And Corn is an informative movie website that uses the TMDB API to browse thousands of titles by genre, popularity, rating, or release date, with a search function by name and a page for each movie featuring a synopsis, trailer, cast, and production details. It is built with Next.js and Tailwind CSS, powered by Claude Code, and uses data caching for fast loading and a dark, movie-theater-inspired design. Its goal: to help you decide what to watch before heading to the movies.',
+    linkGit: 'https://github.com/Dapros/MovieAndCorn',
+    linkDemo: 'https://movieandcorn.vercel.app/',
     lan: 'Spanish',
-    techs: '#react #typescript #zustand',
+    techs: '#next #typescript #API TMDB',
   },
 ]
